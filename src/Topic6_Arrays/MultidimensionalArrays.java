@@ -18,7 +18,8 @@ public class MultidimensionalArrays {
        // System.out.println("Direct Value is " + a[1][2]);
 
         for(int i=0; i<b.length+1; i++){
-            System.out.println("Direct Value is " + b[0][i] + " Second index values "+ b[1][i]);
+            System.out.println("Direct Value is " + b[0][i]);
+            System.out.println("Second index values "+ b[1][i]);
         }
 
     }
